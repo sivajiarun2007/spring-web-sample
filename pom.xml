@@ -11,7 +11,7 @@
 	</parent>
 	<groupId>com.spring-web.sample</groupId>
 	<artifactId>spring-web-sample</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0-SNAPSHOT</version>
 	<name>spring-web-sample</name>
 	<description>Demo project for Spring Boot</description>
 	<url />
@@ -56,6 +56,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>test-webapp</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
